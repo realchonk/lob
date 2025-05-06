@@ -1,0 +1,2 @@
+To run dis junk on OpenBSD, do dis:
+  $ LD_PRELOAD=/usr/local/lib/libcblas.so.2.0 ./x
