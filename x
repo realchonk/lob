@@ -5,7 +5,7 @@ image = cv2.imread("spleen/l_10k_milz_01.webp")
 #cv2.namedWindow('Milz', cv2.WND_PROP_FULLSCREEN)
 #cv2.setWindowProperty('Milz', cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN)
 cv2.namedWindow('Milz', cv2.WINDOW_NORMAL)
-cv2.resizeWindow('Milz', 300, 700)
+cv2.resizeWindow('Milz', 1280, 720)
 cv2.imshow('Milz', image)
 while True:
     k = cv2.waitKey(0)
